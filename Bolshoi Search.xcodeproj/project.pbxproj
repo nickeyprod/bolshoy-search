@@ -13,6 +13,7 @@
 		54E450A726838F1F00963F72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54E450A626838F1F00963F72 /* Preview Assets.xcassets */; };
 		54E450B226838F1F00963F72 /* Bolshoi_SearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E450B126838F1F00963F72 /* Bolshoi_SearchTests.swift */; };
 		54E450BD26838F1F00963F72 /* Bolshoi_SearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E450BC26838F1F00963F72 /* Bolshoi_SearchUITests.swift */; };
+		54E450CF26839ED100963F72 /* Performance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E450CE26839ED100963F72 /* Performance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		54E450B826838F1F00963F72 /* Bolshoi SearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bolshoi SearchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54E450BC26838F1F00963F72 /* Bolshoi_SearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bolshoi_SearchUITests.swift; sourceTree = "<group>"; };
 		54E450BE26838F1F00963F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54E450CE26839ED100963F72 /* Performance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Performance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		54E4509E26838F1B00963F72 /* Bolshoi Search */ = {
 			isa = PBXGroup;
 			children = (
+				54E450CD26839EB400963F72 /* Models */,
 				54E4509F26838F1B00963F72 /* Bolshoi_SearchApp.swift */,
 				54E450A126838F1B00963F72 /* ContentView.swift */,
 				54E450A326838F1F00963F72 /* Assets.xcassets */,
@@ -128,6 +131,14 @@
 				54E450BE26838F1F00963F72 /* Info.plist */,
 			);
 			path = "Bolshoi SearchUITests";
+			sourceTree = "<group>";
+		};
+		54E450CD26839EB400963F72 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				54E450CE26839ED100963F72 /* Performance.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54E450CF26839ED100963F72 /* Performance.swift in Sources */,
 				54E450A226838F1B00963F72 /* ContentView.swift in Sources */,
 				54E450A026838F1B00963F72 /* Bolshoi_SearchApp.swift in Sources */,
 			);
